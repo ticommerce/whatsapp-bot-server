@@ -1,0 +1,8 @@
+[phases.setup]
+aptPkgs = ["chromium", "chromium-driver", "nss", "freetype", "freetype-dev", "harfbuzz", "ca-certificates", "ttf-freefont"]
+
+[phases.install]
+cmds = ["npm install"]
+
+[start]
+cmd = "node index.js"

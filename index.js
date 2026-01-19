@@ -36,7 +36,7 @@ async function initWhatsAppClient() {
 
   client.on('message', async (msg) => {
     try {
-      const response = await fetch(process.env.BASE44_WEBHOOK_URL, {
+      const response = await fetch(process.env.WEBHOOK_URL, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({

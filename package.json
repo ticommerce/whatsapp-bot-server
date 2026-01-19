@@ -1,0 +1,13 @@
+{
+  "name": "whatsapp-bot-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "whatsapp-web.js": "^1.25.0",
+    "qrcode": "^1.5.4",
+    "express": "^4.21.2"
+  }
+}
